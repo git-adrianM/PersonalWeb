@@ -8,7 +8,7 @@ function About() {
 
   return (
     <div>
-      <img src="/images/croCat.jpg" alt="it's me!" width="200" height="auto" />
+      <img src={process.env.PUBLIC_URL + "/images/croCat.jpg"} alt="it's me!" width="200" height="auto" />
       <p>
         <nobr>─=≡Σ((( つ•̀ω•́)つLET’S GO!</nobr>
       </p>

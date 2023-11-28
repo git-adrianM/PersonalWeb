@@ -23,7 +23,7 @@ function Google() {
       <p>
         howdy &#x1f920;. if you don’t know yet, i’m adrian, and
         i just finished an internship with{" "}
-        <ImageHoverCard text="google" imageSrc={"/images/google/google.png"} />,
+        <ImageHoverCard text="google" imageSrc={process.env.PUBLIC_URL + "/images/google/google.png"} />,
         in their nyc office! i wanted to take some time to reflect on the
         experience as a whole! if you want to read about my time in nyc, you can
         find it{" "}
@@ -41,9 +41,9 @@ function Google() {
       <p>
         i worked on google workspace, specifically on accessibility tools for
         google{" "}
-        <ImageHoverCard text="docs" imageSrc={"/images/google/docs.png"} />/
-        <ImageHoverCard text="sheets" imageSrc={"/images/google/sheets.png"} />/
-        <ImageHoverCard text="slides" imageSrc={"/images/google/slides.png"} />.
+        <ImageHoverCard text="docs" imageSrc={process.env.PUBLIC_URL + "/images/google/docs.png"} />/
+        <ImageHoverCard text="sheets" imageSrc={process.env.PUBLIC_URL + "/images/google/sheets.png"} />/
+        <ImageHoverCard text="slides" imageSrc={process.env.PUBLIC_URL + "/images/google/slides.png"} />.
         while i can’t get into detail over what specifically i worked on, i
         wanted to point out that the way google treats their employees
         is awesome, specifically to those who want to learn.
@@ -56,7 +56,7 @@ function Google() {
         development. i could also call myself a mid-stack developer,{" "}
         <ImageHoverCard
           text="but that sounds bad xd"
-          imageSrc={"/images/google/mid.png"}
+          imageSrc={process.env.PUBLIC_URL + "/images/google/mid.png"}
         />
       </p>
       <h4>day in the life</h4>
@@ -64,38 +64,38 @@ function Google() {
       <br /> 7:30 - wake up. another day another dolla
       <br /> 8:00 - get into work (short commute), start up some servers
       <br /> 8:30 - breakfast, usually a bunch of{" "}
-      <ImageHoverCard text="eggs" imageSrc={"/images/google/bfast.png"} />
+      <ImageHoverCard text="eggs" imageSrc={process.env.PUBLIC_URL + "/images/google/bfast.png"} />
       <br /> 9:00 - get some work done, usually a couple of meetings/1:1s, a
       ping pong rally, and a lot of tapping my manager on the shoulder for{" "}
       <ImageHoverCard
         text="debugging"
-        imageSrc={"/images/google/debugging.png"}
+        imageSrc={process.env.PUBLIC_URL + "/images/google/debugging.png"}
       />
       <br /> 12:00 -{" "}
       <ImageHoverCard
         text="lunch time baybee"
-        imageSrc={"/images/google/food.png"}
+        imageSrc={process.env.PUBLIC_URL + "/images/google/food.png"}
       />
       , love the food options in the office! mondays are bbq days, and i’ll make
       the trek to another cafe if they have handrolls.
       <br /> 1:00 - more work, documentation, meetings,{" "}
       <ImageHoverCard
         text="snacking in the microkitches"
-        imageSrc={"/images/google/snacks.png"}
+        imageSrc={process.env.PUBLIC_URL + "/images/google/snacks.png"}
       />
       <br /> 2:30 -{" "}
-      <ImageHoverCard text="power nap" imageSrc={"/images/google/nap.png"} />
+      <ImageHoverCard text="power nap" imageSrc={process.env.PUBLIC_URL + "/images/google/nap.png"} />
       <br /> 3:00 - wrap up on tasks, set tasks for tomorrow, maybe a little{" "}
       <ImageHoverCard
         text="music room"
-        imageSrc={"/images/google/music.png"}
+        imageSrc={process.env.PUBLIC_URL + "/images/google/music.png"}
       />{" "}
       session, and close any existing conversations
       <br /> 5:00 - leave
       <br /> <br />
       relatively standard days, but with lots of variations! in the beginning,
       it was almost all meetings (and taking advantage of{" "}
-      <ImageHoverCard text="amenities" imageSrc={"/images/google/piu.png"} />
+      <ImageHoverCard text="amenities" imageSrc={process.env.PUBLIC_URL + "/images/google/piu.png"} />
       ), but as the weeks went on, i did more dev work and less of everything
       else. i guess everything loses its sparkle eventually.
       <h4>things i liked about google</h4>
@@ -103,13 +103,13 @@ function Google() {
         <b>culture</b>. maybe it was just the nyc office, but everyone that i
         was surrounded with was highly motivated, excited to talk with, and
         incredibly smart. when it came to my{" "}
-        <ImageHoverCard text="team" imageSrc={"/images/google/team.png"} />, my
+        <ImageHoverCard text="team" imageSrc={process.env.PUBLIC_URL + "/images/google/team.png"} />, my
         host, co-host, and skip were like wizards to me, and they always
         challenged me to become a better swe. there’s a culture of
         self-improvement and{" "}
         <ImageHoverCard
           text="community"
-          imageSrc={"/images/google/community.png"}
+          imageSrc={process.env.PUBLIC_URL + "/images/google/community.png"}
         />{" "}
         that’s hard to find (according to other interns)
         <br />
@@ -125,7 +125,7 @@ function Google() {
         and invest time and money to make sure it’s seamless. there’s so much{" "}
         <ImageHoverCard
           text="automation"
-          imageSrc={"/images/google/automation.png"}
+          imageSrc={process.env.PUBLIC_URL + "/images/google/automation.png"}
         />{" "}
         of small, tedious tasks, and so much support to make code fly a lot
         faster. special shoutout to the tool that allows me to revert my
@@ -135,12 +135,12 @@ function Google() {
         <b>amenities</b>. on the topic of the developer experience, the
         amenities are fantastic for remaining productive. a boatload of
         sparkling water, free food, massages, a massive games room, and so much{" "}
-        <ImageHoverCard text="more" imageSrc={"/images/google/more.png"} /> -
+        <ImageHoverCard text="more" imageSrc={process.env.PUBLIC_URL + "/images/google/more.png"} /> -
         makes it so easy to really focus on development, and nothing else. plus,
         the buildings were very fun to{" "}
         <ImageHoverCard
           text="explore"
-          imageSrc={"/images/google/explore.png"}
+          imageSrc={process.env.PUBLIC_URL + "/images/google/explore.png"}
         />
         , and even after 3 months there, i still havent explored everything!
       </p>
@@ -174,7 +174,7 @@ function Google() {
         <br />
         <br />
         <b>working in a big ecosystem</b>. god dam, when there is a lot of{" "}
-        <ImageHoverCard text="code" imageSrc={"/images/google/code.png"} />,
+        <ImageHoverCard text="code" imageSrc={process.env.PUBLIC_URL + "/images/google/code.png"} />,
         there’s a lot to learn - and frankly, i still haven’t learned everything
         there is to know. there’s so many things about each system, and just
         when you think you’ve figured it out, you get hit with a bug that you
@@ -205,7 +205,7 @@ function Google() {
         people invested in the code you push out, that some even{" "}
         <ImageHoverCard
           text="message you"
-          imageSrc={"/images/google/message.png"}
+          imageSrc={process.env.PUBLIC_URL + "/images/google/message.png"}
         />{" "}
         later on to ask questions (especially when you break staging like i did
         lol). there’s also so many moving parts in the codebase, i can make a
@@ -220,7 +220,7 @@ function Google() {
         implementation quality, and non-executable things like naming
         conventions, linting, etc. having to work with different standards in
         place really molded my brain to not think about the now, but the{" "}
-        <ImageHoverCard text="future" imageSrc={"/images/google/future.png"} />.
+        <ImageHoverCard text="future" imageSrc={process.env.PUBLIC_URL + "/images/google/future.png"} />.
       </p>
       <h3>final thoughts</h3>
       <p>

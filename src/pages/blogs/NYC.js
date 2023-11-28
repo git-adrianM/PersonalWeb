@@ -26,7 +26,7 @@ function NYC() {
       <h3>what i was doing</h3>
       <p>
         i was in nyc for a quick 14-week internship with{" "}
-        <ImageHoverCard text="google" imageSrc={"/images/nyc/google.png"} />,
+        <ImageHoverCard text="google" imageSrc={process.env.PUBLIC_URL + "/images/nyc/google.png"} />,
         where i worked on client-side encrypted tools for google docs/sheets/slides! it
         was a super amazing experience, read more{" "}
         <NavLink to="/blogs/google" class="clickable">
@@ -44,7 +44,7 @@ function NYC() {
         york was everything that i ever wanted in a city, and the{" "}
         <ImageHoverCard
           text="intern bubble"
-          imageSrc={"/images/nyc/bereal.png"}
+          imageSrc={process.env.PUBLIC_URL + "/images/nyc/bereal.png"}
         />{" "}
         was definitely treating me well.
         <br />
@@ -62,14 +62,14 @@ function NYC() {
         <b>walking</b>. oh my god i can just{" "}
         <ImageHoverCard
           text="walk/transit"
-          imageSrc={"/images/nyc/henge.png"}
+          imageSrc={process.env.PUBLIC_URL + "/images/nyc/henge.png"}
         />{" "}
         everywhere. it’s amazing how much more i can do when i don’t need a car
         to get around, and am surrounded by reliable transit. especially at
         night when my eyes start to shut down, or when the{" "}
         <ImageHoverCard
           text="brooklyn mirage"
-          imageSrc={"/images/nyc/mirage.png"}
+          imageSrc={process.env.PUBLIC_URL + "/images/nyc/mirage.png"}
         />{" "}
         goes too long, i know i can always get myself home in a reasonable time.
         it also unlocks a ton of possibility for businesses, which leads to my
@@ -79,7 +79,7 @@ function NYC() {
         <b>businesses</b>. i love how businesses{" "}
         <ImageHoverCard
           text="spill on the sidewalks"
-          imageSrc={"/images/nyc/spill.png"}
+          imageSrc={process.env.PUBLIC_URL + "/images/nyc/spill.png"}
         />{" "}
         and the roads to reclaim the city, how there’s so many small stores for
         anything and everything! i can get (almost) anything i want just because
@@ -94,23 +94,23 @@ function NYC() {
         beautiful and kind people in
         the city. sure you can say that about anywhere in the world, but i found
         that the everyday person in the city has so much going on, so much{" "}
-        <ImageHoverCard text="swagger" imageSrc={"/images/nyc/swagger.png"} />, personality
+        <ImageHoverCard text="swagger" imageSrc={process.env.PUBLIC_URL + "/images/nyc/swagger.png"} />, personality
         , and{" "}
-        <ImageHoverCard text="energy" imageSrc={"/images/nyc/people3.png"} />.
+        <ImageHoverCard text="energy" imageSrc={process.env.PUBLIC_URL + "/images/nyc/people3.png"} />.
         <br />
         <br />
         <b>
-          <ImageHoverCard text="vibes" imageSrc={"/images/nyc/vibes.png"} />
+          <ImageHoverCard text="vibes" imageSrc={process.env.PUBLIC_URL + "/images/nyc/vibes.png"} />
         </b>
         . i feel like i have a different energy in new york. now that i’m back
         in suburbia, i find myself less energized by the{" "}
         <ImageHoverCard
           text="general public"
-          imageSrc={"/images/nyc/public.png"}
+          imageSrc={process.env.PUBLIC_URL + "/images/nyc/public.png"}
         />{" "}
         - maybe its the people,
         the heat, or the{" "}
-        <ImageHoverCard text="tourists" imageSrc={"/images/nyc/tourists.png"} />
+        <ImageHoverCard text="tourists" imageSrc={process.env.PUBLIC_URL + "/images/nyc/tourists.png"} />
         , but i miss being surrounded by people but feeling so alone. it’s
         freeing trying new things because no one here will judge you since
         there’s always someone weirder in the room
@@ -118,9 +118,9 @@ function NYC() {
         <br />
         <b>24/7</b>. where else can you stumble at 4 am and get the best
         sandwich of your life?{" "}
-        <ImageHoverCard text="food" imageSrc={"/images/nyc/food.png"} />,{" "}
-        <ImageHoverCard text="bars" imageSrc={"/images/nyc/bars.png"} />, and{" "}
-        <ImageHoverCard text="clubs" imageSrc={"/images/nyc/clubs.png"} /> are
+        <ImageHoverCard text="food" imageSrc={process.env.PUBLIC_URL + "/images/nyc/food.png"} />,{" "}
+        <ImageHoverCard text="bars" imageSrc={process.env.PUBLIC_URL + "/images/nyc/bars.png"} />, and{" "}
+        <ImageHoverCard text="clubs" imageSrc={process.env.PUBLIC_URL + "/images/nyc/clubs.png"} /> are
         just open later, and it’s safer since everyone is out and about - truly
         the city that never sleeps.
         <br />
@@ -128,11 +128,11 @@ function NYC() {
         <b>everything</b>. specifically how there’s something for everyone, and
         always everything for everyone. no matter how niche your hobby is,
         there’s people doing it - and if you want to try something else, there’s{" "}
-        <ImageHoverCard text="more people" imageSrc={"/images/nyc/line.png"} />{" "}
+        <ImageHoverCard text="more people" imageSrc={process.env.PUBLIC_URL + "/images/nyc/line.png"} />{" "}
         doing it!{" "}
         <ImageHoverCard
           text="(presentation night)"
-          imageSrc={"/images/nyc/presentation.png"}
+          imageSrc={process.env.PUBLIC_URL + "/images/nyc/presentation.png"}
         />
       </p>
       <br />
@@ -140,7 +140,7 @@ function NYC() {
       <p>nothing is ever perfect.</p>
       <p>
         <b>cost</b>. god dam this city is{" "}
-        <ImageHoverCard text="expensive" imageSrc={"/images/nyc/bill.png"} />. i
+        <ImageHoverCard text="expensive" imageSrc={process.env.PUBLIC_URL + "/images/nyc/bill.png"} />. i
         remember cringing over buying a can of beer for 8 bucks, but on my last
         day i got one at a bar for 9 bucks and thought i got a sweet deal. it’s
         amazing how much things cost here, i truly wonder how people not in
@@ -151,7 +151,7 @@ function NYC() {
         <br />
         <br />
         <b>cleanliness</b>. dang this city{" "}
-        <ImageHoverCard text="smells" imageSrc={"/images/nyc/trash.png"} />. i
+        <ImageHoverCard text="smells" imageSrc={process.env.PUBLIC_URL + "/images/nyc/trash.png"} />. i
         can walk 5 blocks and smell 6 different unpleasant smells. it probably
         has to do with the general hygiene of the city, lots of garbage bags out
         and about, and its even worse in the subway stations. at least the rats

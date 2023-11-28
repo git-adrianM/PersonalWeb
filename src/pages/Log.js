@@ -56,7 +56,7 @@ function Log() {
       <p>
         <b>June 2023</b>
         <br />- survived new york{" "}
-        <ImageHoverCard text="smog" imageSrc={"/images/smog.png"} />{" "}
+        <ImageHoverCard text="smog" imageSrc={process.env.PUBLIC_URL + "/images/smog.png"} />{" "}
         <nobr>(ºΔº)</nobr>
       </p>
       <p>
