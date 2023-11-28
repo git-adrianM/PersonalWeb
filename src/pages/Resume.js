@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 function Resume() {
   useEffect(() => {
-    document.title = "quinn's resume (๑•̀ㅁ•́๑)✧";
+    document.title = "Adrian's resume (๑•̀ㅁ•́๑)✧";
   }, []);
 
   return (
@@ -11,15 +11,15 @@ function Resume() {
       <hr class="dashed" />
 
       <iframe
-        src="https://drive.google.com/file/d/1FSB4Da5LWI-cA_hx4cC6kCoX0Srxz3oA/preview"
+        src="https://drive.google.com/file/d/1t-05DUSDNRT2sy04f5aTVwt84Ozf5rY2/preview"
         width="640"
         height="825"
         allow="autoplay"
       ></iframe>
 
       <a
-        href="/Resume_Quinn_Ha.pdf"
-        download="Resume_Quinn_Ha.pdf"
+        href="/Adrian_Melo_Resume.pdf"
+        download="Adrian_Melo_Resume.pdf"
         class="clickable"
       >
         download

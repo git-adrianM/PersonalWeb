@@ -3,12 +3,12 @@ import { NavLink } from "react-router-dom";
 
 function About() {
   useEffect(() => {
-    document.title = "quinn's life (〃 ω 〃)";
+    document.title = "Adrian's life (〃 ω 〃)";
   }, []);
 
   return (
     <div>
-      <img src="/images/me.png" alt="it's me!" width="200" height="auto" />
+      <img src="/images/croCat.jpg" alt="it's me!" width="200" height="auto" />
       <p>
         <nobr>─=≡Σ((( つ•̀ω•́)つLET’S GO!</nobr>
       </p>
@@ -31,14 +31,14 @@ function About() {
       </p>
       <p>
         i'm a senior at{" "}
-        <a href="https://www.mcmaster.ca/" target="_blank" class="clickable">
-          McMaster University
+        <a href="https://www.uhd.edu/" target="_blank" class="clickable">
+           University of Houston-Downtown
         </a>
-        , working on an autonomous satellite tracker and scheduler.
+        , student Computer Science.
         <br />
         <br />
-        i'm interested in accessibility, and all creative intersections of tech
-        and art &#127912;.
+        i'm interested in games, and all creative intersections of tech
+        and art 🎨.
         <br />
         <br />
       </p>
@@ -49,86 +49,29 @@ function About() {
       <p>did some internships:</p>
       <ul>
         <li>
-          developed a couple of accessibility tools for google (
+          developed a couple of client-side encrypted features for google 2023 for the 2nd time (
           <a
             href="https://workspace.google.com/intl/en_ca/"
             class="clickable"
             target="_blank"
           >
-            google workspace
+            google workspace docs, slides, sheets
           </a>
           )
         </li>
         <li>
-          worked on purolator's b2c shipping application as a pm (
+          worked on counter abuse technology for google 2022 (
           <a
-            href="https://www.purolator.com/en/business-solutions/technology-solutions/track-manage-deliveries-receivers"
+            href="https://io.google/2022/program/d7b6d22e-59a4-4e6b-a49d-3116ee57dcc3/"
             class="clickable"
             target="_blank"
           >
-            PYW
-          </a>
-          )
-        </li>
-        <li>
-          wrote some nasa code for the canadian space agency (
-          <a
-            href="https://github.com/nasa/cFS"
-            class="clickable"
-            target="_blank"
-          >
-            cFS
-          </a>
-          )
-        </li>
-        <li>
-          wrote test suites for Equitable Bank's android app (
-          <a
-            href="https://apps.apple.com/ca/app/eq-bank-mobile-banking/id1039432211"
-            class="clickable"
-            target="_blank"
-          >
-            EQ Bank Mobile Banking
+            CAT
           </a>
           )
         </li>
       </ul>
       <p></p>
-      <p>and did some clubs:</p>
-      <ul>
-        <li>
-          wrote some satellite code for{" "}
-          <a
-            href="https://mcmasterneudose.ca/"
-            target="_blank"
-            class="clickable"
-          >
-            McMaster NEUDOSE
-          </a>
-        </li>
-        <li>
-          led the marketing team for the biggest design competition in 2021 with
-          the{" "}
-          <a
-            href="https://www.mcmasterdesignleague.com/"
-            class="clickable"
-            target="_blank"
-          >
-            McMaster Design League
-          </a>
-        </li>
-        <li>
-          curated the attendee experience for{" "}
-          <a href="https://deltahacks.com/" target="_blank" class="clickable">
-            Deltahacks
-          </a>
-        </li>
-      </ul>
-      still don't know who i am? see what a couple of{" "}
-      <NavLink to="/personality-tests" class="clickable">
-        <u>personality tests</u>
-      </NavLink>{" "}
-      have to say about me!
     </div>
   );
 }

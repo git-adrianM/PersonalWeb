@@ -27,7 +27,7 @@ function NYC() {
       <p>
         i was in nyc for a quick 14-week internship with{" "}
         <ImageHoverCard text="google" imageSrc={"/images/nyc/google.png"} />,
-        where i worked on accessibility tools for google docs/sheets/slides! it
+        where i worked on client-side encrypted tools for google docs/sheets/slides! it
         was a super amazing experience, read more{" "}
         <NavLink to="/blogs/google" class="clickable">
           <u>here</u>
@@ -37,8 +37,8 @@ function NYC() {
       <br />
       <h3>overall thoughts</h3>
       <p>
-        coming from toronto, i thought it was just going to be a “bigger
-        toronto”, but i never realized how much bigger it would be. on my first
+        coming from houston, i thought it was just going to be a dense
+        houston”, but i never realized how much denser it would be. on my first
         day, i was sent into a panic - i was overcaffeinated, overstimulated,
         and overwhelmed. but after getting over that, i was in for a treat, new
         york was everything that i ever wanted in a city, and the{" "}
@@ -89,21 +89,12 @@ function NYC() {
         bucks, and its true.
         <br />
         <br />
-        <b>people</b>. maybe its the{" "}
-        <ImageHoverCard
-          text="intern bubble"
-          imageSrc={"/images/nyc/people.png"}
-        />
+        <b>people</b>. maybe its the intern bubble
         , or maybe im romanticizing things - but i’ve met some of the most
-        beautiful and kind{" "}
-        <ImageHoverCard text="people" imageSrc={"/images/nyc/people2.png"} /> in
+        beautiful and kind people in
         the city. sure you can say that about anywhere in the world, but i found
         that the everyday person in the city has so much going on, so much{" "}
-        <ImageHoverCard text="swagger" imageSrc={"/images/nyc/swagger.png"} />,{" "}
-        <ImageHoverCard
-          text="personality"
-          imageSrc={"/images/nyc/people4.png"}
-        />
+        <ImageHoverCard text="swagger" imageSrc={"/images/nyc/swagger.png"} />, personality
         , and{" "}
         <ImageHoverCard text="energy" imageSrc={"/images/nyc/people3.png"} />.
         <br />
@@ -117,8 +108,7 @@ function NYC() {
           text="general public"
           imageSrc={"/images/nyc/public.png"}
         />{" "}
-        - maybe its the{" "}
-        <ImageHoverCard text="people" imageSrc={"/images/nyc/people5.png"} />,
+        - maybe its the people,
         the heat, or the{" "}
         <ImageHoverCard text="tourists" imageSrc={"/images/nyc/tourists.png"} />
         , but i miss being surrounded by people but feeling so alone. it’s

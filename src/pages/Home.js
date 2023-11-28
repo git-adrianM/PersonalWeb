@@ -2,23 +2,13 @@ import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 const hobbies = [
-  "playing my ukulele",
-  "writing poetry on my substack",
-  "brewing coffee with my v60",
   "cafe hopping around the city",
   "pretending to be busy",
-  "walking through cities",
-  "smashing birdies on the court",
-  "shredding a mountain on my snowboard",
-  "playing pump it up",
-  "cooking mapo tofu",
-  "walking through art galleries",
-  "drafting up new songs",
-  "bar hopping through neighbourhoods",
-  "watching super smash bros melee",
+  "chillin in the citie",
   "trying to get on top of another mountain",
-  "crafting a new spotify playlist",
+  "searching for new spotify songs",
   "missing dynos at my local climbing gym",
+  "trying to pr or er",
   "still breaking code lol",
 ];
 
@@ -52,7 +42,7 @@ function useWordCycle(words) {
 
 function Home() {
   useEffect(() => {
-    document.title = "quinn's home (≧∇≦)/";
+    document.title = "Adrian's home (≧∇≦)/";
   }, []);
 
   const [currentHobby, handleHobbyClick] = useWordCycle(hobbies);
@@ -60,7 +50,7 @@ function Home() {
 
   return (
     <div>
-      <h2>i'm quinn!</h2>
+      <h2>i'm Adrian!</h2>
       <p>
         welcome to my little{" "}
         <a class="clickable" id="corner" onClick={handleSpaceClick}>
@@ -69,9 +59,9 @@ function Home() {
         of the internet!
       </p>
       <p>
-        i'm a student based in Toronto &#127809; where i study software
+        i'm a student based in Houston 🚀 where i study software
         engineering. when i'm not breaking code, i'm learning about
-        accessibility, reading manga, and{" "}
+        ai, playing video games, and{" "}
         <a class="clickable" id="hobbies" onClick={handleHobbyClick}>
           {currentHobby}
         </a>
@@ -79,20 +69,13 @@ function Home() {
       </p>
       <p>
         reach out to me anytime at{" "}
-        <a href="mailto:quinnha.hello@gmail.com" class="clickable">
-          quinnha.hello@gmail.com
+        <a href="mailto:Melo.Adrian2020@gmail.com" class="clickable">
+          Melo.Adrian2020@gmail.com
         </a>
-        ,
-        <br />
-        or ask{" "}
-        <NavLink to="/quinn-ai" class="clickable">
-          <u>my ai</u>
-        </NavLink>{" "}
-        a question!
       </p>
       <div class="box">
         i'm looking for 2024 new grad swe positions! shoot me an{" "}
-        <a href="mailto:quinnha.hello@gmail.com" class="clickable">
+        <a href="mailto:Melo.Adrian2020@gmail.com" class="clickable">
           email
         </a>{" "}
         if you (or your friends) are hiring &lt;3{" "}

@@ -4,13 +4,11 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
-import QuinnAI from "./pages/QuinnAI";
-import AboutQuinnAI from "./pages/blogs/About-QuinnAI";
+
 import NYC from "./pages/blogs/NYC";
 import Google from "./pages/blogs/Google";
 import Log from "./pages/Log";
 import Blog from "./pages/blogs/Blogs";
-import Tests from "./pages/Tests";
 import "./index.css";
 import NavBar from "./components/navbar";
 import Footer from "./components/footer";
@@ -40,8 +38,6 @@ function AppRoutes() {
               <Route path="about" element={<About />} />
               <Route path="projects" element={<Projects />} />
               <Route path="resume" element={<Resume />} />
-              <Route path="quinn-ai" element={<QuinnAI />} />
-              <Route path="personality-tests" element={<Tests />} />
             </Routes>
 
             <Footer />
@@ -86,7 +82,6 @@ function BlogRoutes() {
         <div class="flex-container" id="blog">
           <Routes>
             <Route path="/" element={<Blog />} />
-            <Route path="quinn-ai" element={<AboutQuinnAI />} />
             <Route path="nyc" element={<NYC />} />
             <Route path="google" element={<Google />} />
           </Routes>

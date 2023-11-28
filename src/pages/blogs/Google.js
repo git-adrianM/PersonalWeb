@@ -21,8 +21,7 @@ function Google() {
       <p>reflecting on my summer internship at google!</p>
       <hr class="dashed" />
       <p>
-        howdy &#x1f920;. if you don’t know yet, i’m{" "}
-        <ImageHoverCard text="quinn" imageSrc={"/images/google/me.png"} />, and
+        howdy &#x1f920;. if you don’t know yet, i’m adrian, and
         i just finished an internship with{" "}
         <ImageHoverCard text="google" imageSrc={"/images/google/google.png"} />,
         in their nyc office! i wanted to take some time to reflect on the
@@ -46,15 +45,8 @@ function Google() {
         <ImageHoverCard text="sheets" imageSrc={"/images/google/sheets.png"} />/
         <ImageHoverCard text="slides" imageSrc={"/images/google/slides.png"} />.
         while i can’t get into detail over what specifically i worked on, i
-        wanted to point out that the way google treats{" "}
-        <a
-          href="https://www.google.com/accessibility/initiatives-research/"
-          target="_blank"
-          class="clickable"
-        >
-          accessibility
-        </a>{" "}
-        is awesome, specifically as someone who lives with a disability.
+        wanted to point out that the way google treats their employees
+        is awesome, specifically to those who want to learn.
         <br />
         <br />
         in my day-to-day, i used a lot of javascript and java, and worked
@@ -123,9 +115,7 @@ function Google() {
         <br />
         <br />
         <b>product</b>. i use google docs/sheets/slides a lot, so i love being
-        able to work on something i{" "}
-        <ImageHoverCard text="use" imageSrc={"/images/google/use.png"} />
-        ! there’s so many cool products externally and internally, and it’s so
+        able to work on something i use! there’s so many cool products externally and internally, and it’s so
         cool to see how everything works. this is a good segue to the next
         point:
         <br />
@@ -173,8 +163,8 @@ function Google() {
       </p>
       <h4>challenges</h4>
       <p>
-        <b>workflow</b>. this was the biggest thing for me, coming from only
-        have worked remote internships. and not only figuring out how to use
+        <b>workflow</b>. this was the biggest thing for me, coming from 
+        never having a dev job and collaborated with others. and not only figuring out how to use
         internal tools/testing/developer workflow, but also managing my physical
         self. i remember in the first couple weeks demolishing free lunch only
         to be hit by a food coma, overdosing on caffeine just because it was
@@ -241,8 +231,8 @@ function Google() {
         could have done that might have only been possible at a startup. i’ll be
         taking these lessons to wherever i end up next, and if you’re looking
         for a 2024 new grad, shoot me an email at{" "}
-        <a href="mailto:quinnha.hello@gmail.com" class="clickable">
-          quinnha.hello@gmail.com
+        <a href="mailto:Melo.Adrian@gmail.com" class="clickable">
+          Melo.Adrian2020@gmail.com
         </a>
         !
       </p>

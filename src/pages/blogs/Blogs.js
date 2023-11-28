@@ -4,7 +4,7 @@ import BlogNavBar from "../../components/blog_navbar";
 
 function Blog() {
   useEffect(() => {
-    document.title = "quinn's blogs （=´∇｀=）";
+    document.title = "Adrian's blogs （=´∇｀=）";
   }, []);
 
   return (
@@ -17,11 +17,7 @@ function Blog() {
       <p>collections of all blogs</p>
       <hr class="dashed"></hr>
 
-      <h3>
-        <NavLink to="/blogs/quinn-ai" class="clickable">
-          <u>quinn ai</u>
-        </NavLink>{" "}
-      </h3>
+
       <h3>
         <NavLink to="/blogs/nyc" class="clickable">
           <u>a nyc summer</u>
